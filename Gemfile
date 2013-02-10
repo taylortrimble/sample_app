@@ -4,10 +4,12 @@ gem 'rails', '3.2.11'
 gem 'bootstrap-sass', '2.1'
 gem 'pg', '0.12.2'
 gem 'jquery-rails', '2.0.2'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'spork', '0.9.2'
+  gem 'annotate', '2.5.0'
 end
 
 group :assets do
