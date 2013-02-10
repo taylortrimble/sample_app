@@ -92,7 +92,7 @@ describe User do
       let(:user_for_invalid_password) { found_user.authenticate("bad_passw0rd") }
       
       it { should_not == user_for_invalid_password }
-      specify { user_for_invlid_password.should be_false }
+      specify { user_for_invalid_password.should be_false }
     end
   end
 end
