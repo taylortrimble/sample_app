@@ -103,10 +103,6 @@ describe User do
     
     describe "with valid password" do
       it { should == found_user.authenticate(@user.password) }
-      
-      describe "after saving the user" do
-        it { should have_link('Sign out') }
-      end
     end
     
     describe "with invalid password" do
